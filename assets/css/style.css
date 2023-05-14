@@ -1,0 +1,139 @@
+
+body {
+    margin: 0;
+    background-color: #E8EBE4;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container {
+    display: flex;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    /* min-height: 100vh; */
+    align-items: center;
+    justify-content: center;
+    padding: 6em;
+    width: 100%;
+
+}
+
+.contactos {
+    display: flex;
+    flex-direction: column;
+    /* flex-basis: 20em; */
+    min-height: 100vh;
+    flex: 0 0 25em;
+    background-color: white;
+}
+
+.mensaje{
+    border: solid 0.5px rgb(220 217 217);
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 1em;
+    gap: 1em;
+    font-weight: 300;
+}
+
+.mensaje img {
+    margin-left: 2em;
+}
+
+.texto_chat p{
+    padding: 0;
+    margin: 0;
+}
+
+.nuevo_msje {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3em;
+    border: solid 0.5px rgb(220 217 217);
+}
+
+.mensaje img {
+    border-radius: 50%;
+    height: 50px;
+}
+
+.boton {
+
+    color: white;
+    background-color: #A491D2;
+    padding: 1em;
+    width: 200px;
+    border: white;
+}
+
+.maria {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: solid 0.5px rgb(220 217 217);
+    padding: 1em;
+}
+
+.maria_datos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2em;
+    /* padding-top: 1em; */
+}
+
+.maria_foto {
+    border-radius: 200px;
+    height: 40px;
+}
+
+.texto_maria {
+    padding-left: 1em;
+}
+
+.texto_maria p {
+    margin: 0;
+    padding: 0;
+}
+
+.nombre_principal {
+    font-weight: 300;
+}
+
+.estado_activo{
+    font-weight: 100;
+    font-size: 0.8em;
+}
+
+.sub_titulo {
+    text-align: center;
+    font-weight: 300;
+}
+
+.titulo {
+    margin-top: 1em;
+    font-size: 45px;
+}
+
+.boton:hover {
+    background-color: #CDC3E6;
+}
+
+.boton:focus {
+    background-color: #BEC1BB;
+}
+
+.iconos {
+    display: flex;
+    padding-right: 1em;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    color: #BEC1BB;
+}
